@@ -1,0 +1,28 @@
+/*Custom imports*/
+@import "custom/fonts.scss";
+@import "custom/sizes.scss";
+
+/*Block imports*/
+@import "card.scss";
+@import "grid.scss";
+@import "utilities.scss";
+
+/*Main SCSS*/
+body {
+  margin: 0px;
+  font-family: $body-font;
+  color: $text-color;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  color: $title-color;
+}
+a,
+button,
+:focus,
+a:focus,
+button:focus,
+a:active,
+a:hover {
+  outline: 0;
+}

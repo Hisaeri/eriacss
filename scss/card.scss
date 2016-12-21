@@ -1,0 +1,6 @@
+/*Cards SCSS*/
+.card {
+  margin: $margin-medium;
+  padding: $margin-medium;
+  box-shadow: 0 $shadow-size $shadow-size + 3px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,188 @@
+/*Custom imports*/
+/*Fonts*/
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700");
+/*Custom sizes*/
+/*Block imports*/
+/*Cards SCSS*/
+.card {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
+
+/*Grid system for eriacss*/
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%; }
+
+.col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: block;
+  width: 100%; }
+
+.col_10 {
+  max-width: 10%;
+  flex: 0 0 10%; }
+
+.col_20 {
+  max-width: 20%;
+  flex: 0 0 20%; }
+
+.col_25 {
+  max-width: 25%;
+  flex: 0 0 25%; }
+
+.col_30 {
+  max-width: 30%;
+  flex: 0 0 30%; }
+
+.col_33 {
+  max-width: 33.3333%;
+  flex: 0 0 33.3333%; }
+
+.col_40 {
+  max-width: 40%;
+  flex: 0 0 40%; }
+
+.col_50 {
+  max-width: 50%;
+  flex: 0 0 50%; }
+
+.col_60 {
+  max-width: 60%;
+  flex: 0 0 60%; }
+
+.col_66 {
+  max-width: 66.6666%;
+  flex: 0 0 66.6666%; }
+
+.col_70 {
+  max-width: 70%;
+  flex: 0 0 70%; }
+
+.col_70 {
+  max-width: 75%;
+  flex: 0 0 75%; }
+
+.col_80 {
+  max-width: 80%;
+  flex: 0 0 80%; }
+
+.col_90 {
+  max-width: 90%;
+  flex: 0 0 90%; }
+
+.col_100 {
+  max-width: 100%;
+  flex: 0 0 100%; }
+
+.col_offset-10 {
+  margin-left: 10%; }
+
+.col_offset-20 {
+  margin-left: 20%; }
+
+.col_offset-30 {
+  margin-left: 30%; }
+
+.col_offset-40 {
+  margin-left: 40%; }
+
+.col_offset-50 {
+  margin-left: 50%; }
+
+.col_offset-60 {
+  margin-left: 60%; }
+
+.col_offset-70 {
+  margin-left: 70%; }
+
+.col_offset-80 {
+  margin-left: 80%; }
+
+.col_offset-90 {
+  margin-left: 90%; }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .col_s-10 {
+    max-width: 10%;
+    flex: 0 0 10%; }
+  .col_s-20 {
+    max-width: 20%;
+    flex: 0 0 20%; }
+  .col_s-25 {
+    max-width: 25%;
+    flex: 0 0 25%; }
+  .col_s-30 {
+    max-width: 30%;
+    flex: 0 0 30%; }
+  .col_s-33 {
+    max-width: 33.3333%;
+    flex: 0 0 33.3333%; }
+  .col_s-40 {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .col_s-50 {
+    max-width: 50%;
+    flex: 0 0 50%; }
+  .col_s-60 {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .col_s-66 {
+    max-width: 66.6666%;
+    flex: 0 0 66.6666%; }
+  .col_s-70 {
+    max-width: 70%;
+    flex: 0 0 70%; }
+  .col_s-75 {
+    max-width: 75%;
+    flex: 0 0 75%; }
+  .col_s-80 {
+    max-width: 80%;
+    flex: 0 0 80%; }
+  .col_s-90 {
+    max-width: 90%;
+    flex: 0 0 90%; }
+  .col_s-100 {
+    max-width: 100%;
+    flex: 0 0 100%; } }
+
+/*Utilities SCSS*/
+.hoverable {
+  transition: all 0.2s; }
+  .hoverable:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s; }
+
+.container {
+  margin: 10px; }
+
+/*Main SCSS*/
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  color: #212121; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  color: #666; }
+
+a,
+button,
+:focus,
+a:focus,
+button:focus,
+a:active,
+a:hover {
+  outline: 0; }

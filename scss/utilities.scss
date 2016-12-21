@@ -1,0 +1,11 @@
+/*Utilities SCSS*/
+.hoverable {
+  transition: all 0.2s;
+  &:hover{
+    box-shadow: 0 $shadow-size * 3 $shadow-size * 5  rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+  }
+}
+.container {
+  margin: $margin-medium;
+}
