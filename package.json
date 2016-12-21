@@ -1,0 +1,28 @@
+{
+  "name": "eriacss",
+  "version": "1.0.0",
+  "description": "Lib for testing css perfs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hisaeri/eriacss.git"
+  },
+  "keywords": [
+    "eriacss",
+    "css"
+  ],
+  "author": "Hisaeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hisaeri/eriacss/issues"
+  },
+  "homepage": "https://github.com/Hisaeri/eriacss#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-util": "^3.0.7"
+  }
+}
