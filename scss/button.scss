@@ -59,7 +59,7 @@
 .btn_outlined {
   background: transparent;
   color: $grey;
-  border: 2px solid $grey-light;
+  border: $btn-outline-size solid $grey-light;
   &:hover {
     background-color: transparent;
   }
@@ -68,26 +68,32 @@
   }
 }
 .btn_outlined_action {
-  border: 2px solid $btn-action;
+  border: $btn-outline-size solid $btn-action;
   color: $btn-action;
+  transition: all 0.3s;
   &:hover{
-    border-color: color-lighten($btn-action);
-    color: color-lighten($btn-action);
+    transition: all 0.3s;
+    background-color: $btn-action;
+    color: white;
   }
 }
 .btn_outlined_valid {
-  border: 2px solid $btn-valid;
+  border: $btn-outline-size solid $btn-valid;
   color: $btn-valid;
+  transition: all 0.3s;
   &:hover{
-    border-color: color-lighten($btn-valid);
-    color: color-lighten($btn-valid);
+    transition: all 0.3s;
+    background-color: $btn-valid;
+    color: white;
   }
 }
 .btn_outlined_invalid {
-  border: 2px solid $btn-invalid;
+  border: $btn-outline-size solid $btn-invalid;
   color: $btn-invalid;
+  transition: all 0.3s;
   &:hover{
-    border-color: color-lighten($btn-invalid);
-    color: color-lighten($btn-invalid);
+    transition: all 0.3s;
+    background-color: $btn-invalid;
+    color: white;
   }
 }

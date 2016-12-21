@@ -383,32 +383,38 @@
 .btn_outlined {
   background: transparent;
   color: #666666;
-  border: 2px solid #cccccc; }
+  border: 1px solid #cccccc; }
   .btn_outlined:hover {
     background-color: transparent; }
   .btn_outlined:active {
     background-color: transparent; }
 
 .btn_outlined_action {
-  border: 2px solid #00BCD4;
-  color: #00BCD4; }
+  border: 1px solid #00BCD4;
+  color: #00BCD4;
+  transition: all 0.3s; }
   .btn_outlined_action:hover {
-    border-color: #00d3ee;
-    color: #00d3ee; }
+    transition: all 0.3s;
+    background-color: #00BCD4;
+    color: white; }
 
 .btn_outlined_valid {
-  border: 2px solid #4caf50;
-  color: #4caf50; }
+  border: 1px solid #4caf50;
+  color: #4caf50;
+  transition: all 0.3s; }
   .btn_outlined_valid:hover {
-    border-color: #5cb860;
-    color: #5cb860; }
+    transition: all 0.3s;
+    background-color: #4caf50;
+    color: white; }
 
 .btn_outlined_invalid {
-  border: 2px solid #F44336;
-  color: #F44336; }
+  border: 1px solid #F44336;
+  color: #F44336;
+  transition: all 0.3s; }
   .btn_outlined_invalid:hover {
-    border-color: #f55a4e;
-    color: #f55a4e; }
+    transition: all 0.3s;
+    background-color: #F44336;
+    color: white; }
 
 /*Cards SCSS*/
 .card {
