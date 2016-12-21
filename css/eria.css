@@ -70,7 +70,7 @@
   max-width: 70%;
   flex: 0 0 70%; }
 
-.col_70 {
+.col_75 {
   max-width: 75%;
   flex: 0 0 75%; }
 
@@ -156,7 +156,88 @@
     flex: 0 0 90%; }
   .col_s-100 {
     max-width: 100%;
-    flex: 0 0 100%; } }
+    flex: 0 0 100%; }
+  .col_s-offset-10 {
+    margin-left: 10%; }
+  .col_s-offset-20 {
+    margin-left: 20%; }
+  .col_s-offset-30 {
+    margin-left: 30%; }
+  .col_s-offset-40 {
+    margin-left: 40%; }
+  .col_s-offset-50 {
+    margin-left: 50%; }
+  .col_s-offset-60 {
+    margin-left: 60%; }
+  .col_s-offset-70 {
+    margin-left: 70%; }
+  .col_s-offset-80 {
+    margin-left: 80%; }
+  .col_s-offset-90 {
+    margin-left: 90%; } }
+
+/* Super Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .col_xs-10 {
+    max-width: 10%;
+    flex: 0 0 10%; }
+  .col_xs-20 {
+    max-width: 20%;
+    flex: 0 0 20%; }
+  .col_xs-25 {
+    max-width: 25%;
+    flex: 0 0 25%; }
+  .col_xs-30 {
+    max-width: 30%;
+    flex: 0 0 30%; }
+  .col_xs-33 {
+    max-width: 33.3333%;
+    flex: 0 0 33.3333%; }
+  .col_xs-40 {
+    max-width: 40%;
+    flex: 0 0 40%; }
+  .col_xs-50 {
+    max-width: 50%;
+    flex: 0 0 50%; }
+  .col_xs-60 {
+    max-width: 60%;
+    flex: 0 0 60%; }
+  .col_xs-66 {
+    max-width: 66.6666%;
+    flex: 0 0 66.6666%; }
+  .col_xs-70 {
+    max-width: 70%;
+    flex: 0 0 70%; }
+  .col_xs-75 {
+    max-width: 75%;
+    flex: 0 0 75%; }
+  .col_xs-80 {
+    max-width: 80%;
+    flex: 0 0 80%; }
+  .col_xs-90 {
+    max-width: 90%;
+    flex: 0 0 90%; }
+  .col_xs-100 {
+    max-width: 100%;
+    flex: 0 0 100%; }
+  .col_xs-offset-10 {
+    margin-left: 10%; }
+  .col_xs-offset-20 {
+    margin-left: 20%; }
+  .col_xs-offset-30 {
+    margin-left: 30%; }
+  .col_xs-offset-40 {
+    margin-left: 40%; }
+  .col_xs-offset-50 {
+    margin-left: 50%; }
+  .col_xs-offset-60 {
+    margin-left: 60%; }
+  .col_xs-offset-70 {
+    margin-left: 70%; }
+  .col_xs-offset-80 {
+    margin-left: 80%; }
+  .col_xs-offset-90 {
+    margin-left: 90%; } }
 
 /*Utilities SCSS*/
 .hoverable {
