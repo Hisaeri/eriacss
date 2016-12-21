@@ -1,11 +1,12 @@
 /*Custom imports*/
-@import "custom/fonts.scss";
+@import "custom/colors.scss";
 @import "custom/sizes.scss";
+@import "custom/fonts.scss";
 
 /*Block imports*/
-@import "card.scss";
 @import "grid.scss";
 @import "utilities.scss";
+@import "card.scss";
 
 /*Main SCSS*/
 body {
