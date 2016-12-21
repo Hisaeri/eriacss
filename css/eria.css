@@ -1,5 +1,8 @@
 /*Custom imports*/
 /*Grey*/
+/*Green*/
+/*Red*/
+/*Button colors*/
 /*Custom sizes*/
 /*
  * Nb of columns - 100 will be divided by that nb
@@ -9,6 +12,25 @@
 /*Fonts*/
 @import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700");
 /*Block imports*/
+/*Utilities SCSS*/
+.hoverable {
+  transition: all 0.2s; }
+  .hoverable:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s; }
+
+.container {
+  margin: 10px; }
+
+.text_center {
+  text-align: center; }
+
+.text_right {
+  text-align: right; }
+
+.text_left {
+  text-align: left; }
+
 /*Grid system for eriacss*/
 .row {
   display: -webkit-box;
@@ -308,24 +330,85 @@
   .col_xs-offset-66 {
     margin-left: 66.6666%; } }
 
-/*Utilities SCSS*/
-.hoverable {
-  transition: all 0.2s; }
-  .hoverable:hover {
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s; }
+/*Buttons SCSS*/
+.btn {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+  border: 0;
+  border-radius: 10px;
+  background-color: #9E9E9E;
+  color: white;
+  cursor: pointer; }
+  .btn:hover {
+    background-color: #ababab; }
+  .btn:active {
+    background-color: #999999; }
 
-.container {
-  margin: 10px; }
+.btn_small {
+  max-width: 80px;
+  font-size: 0.8em; }
 
-.text_center {
-  text-align: center; }
+.btn_large {
+  min-width: 150px;
+  font-size: 1.2em; }
 
-.text_right {
-  text-align: right; }
+.btn_full {
+  width: 100%; }
 
-.text_left {
-  text-align: left; }
+.btn_action {
+  background-color: #00BCD4;
+  color: white; }
+  .btn_action:hover {
+    background-color: #00d3ee; }
+  .btn_action:active {
+    background-color: #00b3ca; }
+
+.btn_valid {
+  background-color: #4caf50;
+  color: white; }
+  .btn_valid:hover {
+    background-color: #5cb860; }
+  .btn_valid:active {
+    background-color: #49a84d; }
+
+.btn_invalid {
+  background-color: #F44336;
+  color: white; }
+  .btn_invalid:hover {
+    background-color: #f55a4e; }
+  .btn_invalid:active {
+    background-color: #f33a2c; }
+
+.btn_outlined {
+  background: transparent;
+  color: #666666;
+  border: 2px solid #cccccc; }
+  .btn_outlined:hover {
+    background-color: transparent; }
+  .btn_outlined:active {
+    background-color: transparent; }
+
+.btn_outlined_action {
+  border: 2px solid #00BCD4;
+  color: #00BCD4; }
+  .btn_outlined_action:hover {
+    border-color: #00d3ee;
+    color: #00d3ee; }
+
+.btn_outlined_valid {
+  border: 2px solid #4caf50;
+  color: #4caf50; }
+  .btn_outlined_valid:hover {
+    border-color: #5cb860;
+    color: #5cb860; }
+
+.btn_outlined_invalid {
+  border: 2px solid #F44336;
+  color: #F44336; }
+  .btn_outlined_invalid:hover {
+    border-color: #f55a4e;
+    color: #f55a4e; }
 
 /*Cards SCSS*/
 .card {

@@ -18,3 +18,16 @@
 .text_left {
   text-align: left;
 }
+@function set-text-color($color) {
+  @if (lightness($color) > 80) {
+    @return $grey;
+  } @else {
+    @return white;
+  }
+}
+@function color-lighten($color) {
+  @return lighten($color, 5%)
+}
+@function color-darken($color) {
+  @return darken($color, 2%)
+}

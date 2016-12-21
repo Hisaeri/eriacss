@@ -1,0 +1,93 @@
+/*Buttons SCSS*/
+.btn {
+  padding: $padding-medium;
+  margin: $margin-small;
+  font-size: 1em;
+  border: 0;
+  border-radius: $radius-size;
+  background-color: $btn-color;
+  color: set-text-color($btn-color);
+  cursor: pointer;
+  &:hover {
+    background-color: color-lighten($btn-color);
+  }
+  &:active {
+    background-color: color-darken($btn-color);
+  }
+}
+.btn_small {
+  max-width: $btn-size-small;
+  font-size: 0.8em;
+}
+.btn_large {
+  min-width: $btn-size-large;
+  font-size: 1.2em;
+}
+.btn_full {
+  width: 100%;
+}
+.btn_action {
+  background-color: $btn-action;
+  color: set-text-color($btn-action);
+  &:hover {
+    background-color: color-lighten($btn-action);
+  }
+  &:active {
+    background-color: color-darken($btn-action);
+  }
+}
+.btn_valid {
+  background-color: $btn-valid;
+  color: set-text-color($btn-valid);
+  &:hover {
+    background-color: color-lighten($btn-valid);
+  }
+  &:active {
+    background-color: color-darken($btn-valid);
+  }
+}
+.btn_invalid {
+  background-color: $btn-invalid;
+  color: set-text-color($btn-invalid);
+  &:hover {
+    background-color: color-lighten($btn-invalid);
+  }
+  &:active {
+    background-color: color-darken($btn-invalid);
+  }
+}
+.btn_outlined {
+  background: transparent;
+  color: $grey;
+  border: 2px solid $grey-light;
+  &:hover {
+    background-color: transparent;
+  }
+  &:active {
+    background-color: transparent;
+  }
+}
+.btn_outlined_action {
+  border: 2px solid $btn-action;
+  color: $btn-action;
+  &:hover{
+    border-color: color-lighten($btn-action);
+    color: color-lighten($btn-action);
+  }
+}
+.btn_outlined_valid {
+  border: 2px solid $btn-valid;
+  color: $btn-valid;
+  &:hover{
+    border-color: color-lighten($btn-valid);
+    color: color-lighten($btn-valid);
+  }
+}
+.btn_outlined_invalid {
+  border: 2px solid $btn-invalid;
+  color: $btn-invalid;
+  &:hover{
+    border-color: color-lighten($btn-invalid);
+    color: color-lighten($btn-invalid);
+  }
+}
