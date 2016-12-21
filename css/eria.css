@@ -1,14 +1,14 @@
 /*Custom imports*/
+/*Grey*/
+/*Custom sizes*/
+/*
+ * Nb of columns - 100 will be divided by that nb
+ * to make proper column names. (example for 10: col_10, col_20, ...)
+ * Watch out !
+*/
 /*Fonts*/
 @import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700");
-/*Custom sizes*/
 /*Block imports*/
-/*Cards SCSS*/
-.card {
-  margin: 10px;
-  padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
-
 /*Grid system for eriacss*/
 .row {
   display: -webkit-box;
@@ -34,210 +34,279 @@
   max-width: 10%;
   flex: 0 0 10%; }
 
+.col_offset-10 {
+  margin-left: 10%; }
+
 .col_20 {
   max-width: 20%;
   flex: 0 0 20%; }
 
-.col_25 {
-  max-width: 25%;
-  flex: 0 0 25%; }
+.col_offset-20 {
+  margin-left: 20%; }
 
 .col_30 {
   max-width: 30%;
   flex: 0 0 30%; }
 
-.col_33 {
-  max-width: 33.3333%;
-  flex: 0 0 33.3333%; }
+.col_offset-30 {
+  margin-left: 30%; }
 
 .col_40 {
   max-width: 40%;
   flex: 0 0 40%; }
 
+.col_offset-40 {
+  margin-left: 40%; }
+
 .col_50 {
   max-width: 50%;
   flex: 0 0 50%; }
+
+.col_offset-50 {
+  margin-left: 50%; }
 
 .col_60 {
   max-width: 60%;
   flex: 0 0 60%; }
 
-.col_66 {
-  max-width: 66.6666%;
-  flex: 0 0 66.6666%; }
+.col_offset-60 {
+  margin-left: 60%; }
 
 .col_70 {
   max-width: 70%;
   flex: 0 0 70%; }
 
-.col_75 {
-  max-width: 75%;
-  flex: 0 0 75%; }
+.col_offset-70 {
+  margin-left: 70%; }
 
 .col_80 {
   max-width: 80%;
   flex: 0 0 80%; }
 
+.col_offset-80 {
+  margin-left: 80%; }
+
 .col_90 {
   max-width: 90%;
   flex: 0 0 90%; }
+
+.col_offset-90 {
+  margin-left: 90%; }
 
 .col_100 {
   max-width: 100%;
   flex: 0 0 100%; }
 
-.col_offset-10 {
-  margin-left: 10%; }
+.col_offset-100 {
+  margin-left: 100%; }
 
-.col_offset-20 {
-  margin-left: 20%; }
+.col_25 {
+  max-width: 25%;
+  flex: 0 0 25%; }
 
-.col_offset-30 {
-  margin-left: 30%; }
+.col_offset-25 {
+  margin-left: 25%; }
 
-.col_offset-40 {
-  margin-left: 40%; }
+.col_50 {
+  max-width: 50%;
+  flex: 0 0 50%; }
 
 .col_offset-50 {
   margin-left: 50%; }
 
-.col_offset-60 {
-  margin-left: 60%; }
+.col_75 {
+  max-width: 75%;
+  flex: 0 0 75%; }
 
-.col_offset-70 {
-  margin-left: 70%; }
+.col_offset-75 {
+  margin-left: 75%; }
 
-.col_offset-80 {
-  margin-left: 80%; }
+.col_100 {
+  max-width: 100%;
+  flex: 0 0 100%; }
 
-.col_offset-90 {
-  margin-left: 90%; }
+.col_offset-100 {
+  margin-left: 100%; }
+
+.col_33 {
+  max-width: 33.3333%;
+  flex: 0 0 33.3333%; }
+
+.col_offset-33 {
+  margin-left: 33.3333%; }
+
+.col_66 {
+  max-width: 66.6666%;
+  flex: 0 0 66.6666%; }
+
+.col_offset-66 {
+  margin-left: 66.6666%; }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .col_s-10 {
     max-width: 10%;
     flex: 0 0 10%; }
+  .col_s-offset-10 {
+    margin-left: 10%; }
   .col_s-20 {
     max-width: 20%;
     flex: 0 0 20%; }
-  .col_s-25 {
-    max-width: 25%;
-    flex: 0 0 25%; }
+  .col_s-offset-20 {
+    margin-left: 20%; }
   .col_s-30 {
     max-width: 30%;
     flex: 0 0 30%; }
-  .col_s-33 {
-    max-width: 33.3333%;
-    flex: 0 0 33.3333%; }
+  .col_s-offset-30 {
+    margin-left: 30%; }
   .col_s-40 {
     max-width: 40%;
     flex: 0 0 40%; }
+  .col_s-offset-40 {
+    margin-left: 40%; }
   .col_s-50 {
     max-width: 50%;
     flex: 0 0 50%; }
+  .col_s-offset-50 {
+    margin-left: 50%; }
   .col_s-60 {
     max-width: 60%;
     flex: 0 0 60%; }
-  .col_s-66 {
-    max-width: 66.6666%;
-    flex: 0 0 66.6666%; }
+  .col_s-offset-60 {
+    margin-left: 60%; }
   .col_s-70 {
     max-width: 70%;
     flex: 0 0 70%; }
-  .col_s-75 {
-    max-width: 75%;
-    flex: 0 0 75%; }
+  .col_s-offset-70 {
+    margin-left: 70%; }
   .col_s-80 {
     max-width: 80%;
     flex: 0 0 80%; }
+  .col_s-offset-80 {
+    margin-left: 80%; }
   .col_s-90 {
     max-width: 90%;
     flex: 0 0 90%; }
+  .col_s-offset-90 {
+    margin-left: 90%; }
   .col_s-100 {
     max-width: 100%;
     flex: 0 0 100%; }
-  .col_s-offset-10 {
-    margin-left: 10%; }
-  .col_s-offset-20 {
-    margin-left: 20%; }
-  .col_s-offset-30 {
-    margin-left: 30%; }
-  .col_s-offset-40 {
-    margin-left: 40%; }
+  .col_s-offset-100 {
+    margin-left: 100%; }
+  .col_s-25 {
+    max-width: 25%;
+    flex: 0 0 25%; }
+  .col_s-offset-25 {
+    margin-left: 25%; }
+  .col_s-50 {
+    max-width: 50%;
+    flex: 0 0 50%; }
   .col_s-offset-50 {
     margin-left: 50%; }
-  .col_s-offset-60 {
-    margin-left: 60%; }
-  .col_s-offset-70 {
-    margin-left: 70%; }
-  .col_s-offset-80 {
-    margin-left: 80%; }
-  .col_s-offset-90 {
-    margin-left: 90%; } }
+  .col_s-75 {
+    max-width: 75%;
+    flex: 0 0 75%; }
+  .col_s-offset-75 {
+    margin-left: 75%; }
+  .col_s-100 {
+    max-width: 100%;
+    flex: 0 0 100%; }
+  .col_s-offset-100 {
+    margin-left: 100%; }
+  .col_s-33 {
+    max-width: 33.3333%;
+    flex: 0 0 33.3333%; }
+  .col_s-offset-33 {
+    margin-left: 33.3333%; }
+  .col_s-66 {
+    max-width: 66.6666%;
+    flex: 0 0 66.6666%; }
+  .col_s-offset-66 {
+    margin-left: 66.6666%; } }
 
 /* Super Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   .col_xs-10 {
     max-width: 10%;
     flex: 0 0 10%; }
+  .col_xs-offset-10 {
+    margin-left: 10%; }
   .col_xs-20 {
     max-width: 20%;
     flex: 0 0 20%; }
-  .col_xs-25 {
-    max-width: 25%;
-    flex: 0 0 25%; }
+  .col_xs-offset-20 {
+    margin-left: 20%; }
   .col_xs-30 {
     max-width: 30%;
     flex: 0 0 30%; }
-  .col_xs-33 {
-    max-width: 33.3333%;
-    flex: 0 0 33.3333%; }
+  .col_xs-offset-30 {
+    margin-left: 30%; }
   .col_xs-40 {
     max-width: 40%;
     flex: 0 0 40%; }
+  .col_xs-offset-40 {
+    margin-left: 40%; }
   .col_xs-50 {
     max-width: 50%;
     flex: 0 0 50%; }
+  .col_xs-offset-50 {
+    margin-left: 50%; }
   .col_xs-60 {
     max-width: 60%;
     flex: 0 0 60%; }
-  .col_xs-66 {
-    max-width: 66.6666%;
-    flex: 0 0 66.6666%; }
+  .col_xs-offset-60 {
+    margin-left: 60%; }
   .col_xs-70 {
     max-width: 70%;
     flex: 0 0 70%; }
-  .col_xs-75 {
-    max-width: 75%;
-    flex: 0 0 75%; }
+  .col_xs-offset-70 {
+    margin-left: 70%; }
   .col_xs-80 {
     max-width: 80%;
     flex: 0 0 80%; }
+  .col_xs-offset-80 {
+    margin-left: 80%; }
   .col_xs-90 {
     max-width: 90%;
     flex: 0 0 90%; }
+  .col_xs-offset-90 {
+    margin-left: 90%; }
   .col_xs-100 {
     max-width: 100%;
     flex: 0 0 100%; }
-  .col_xs-offset-10 {
-    margin-left: 10%; }
-  .col_xs-offset-20 {
-    margin-left: 20%; }
-  .col_xs-offset-30 {
-    margin-left: 30%; }
-  .col_xs-offset-40 {
-    margin-left: 40%; }
+  .col_xs-offset-100 {
+    margin-left: 100%; }
+  .col_xs-25 {
+    max-width: 25%;
+    flex: 0 0 25%; }
+  .col_xs-offset-25 {
+    margin-left: 25%; }
+  .col_xs-50 {
+    max-width: 50%;
+    flex: 0 0 50%; }
   .col_xs-offset-50 {
     margin-left: 50%; }
-  .col_xs-offset-60 {
-    margin-left: 60%; }
-  .col_xs-offset-70 {
-    margin-left: 70%; }
-  .col_xs-offset-80 {
-    margin-left: 80%; }
-  .col_xs-offset-90 {
-    margin-left: 90%; } }
+  .col_xs-75 {
+    max-width: 75%;
+    flex: 0 0 75%; }
+  .col_xs-offset-75 {
+    margin-left: 75%; }
+  .col_xs-100 {
+    max-width: 100%;
+    flex: 0 0 100%; }
+  .col_xs-offset-100 {
+    margin-left: 100%; }
+  .col_xs-33 {
+    max-width: 33.3333%;
+    flex: 0 0 33.3333%; }
+  .col_xs-offset-33 {
+    margin-left: 33.3333%; }
+  .col_xs-66 {
+    max-width: 66.6666%;
+    flex: 0 0 66.6666%; }
+  .col_xs-offset-66 {
+    margin-left: 66.6666%; } }
 
 /*Utilities SCSS*/
 .hoverable {
@@ -249,6 +318,30 @@
 .container {
   margin: 10px; }
 
+.text_center {
+  text-align: center; }
+
+.text_right {
+  text-align: right; }
+
+.text_left {
+  text-align: left; }
+
+/*Cards SCSS*/
+.card {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
+
+.card__title {
+  padding: 5px 0px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 1.5em; }
+
+.card__content {
+  padding: 10px 10px; }
+
 /*Main SCSS*/
 body {
   margin: 0px;
@@ -257,7 +350,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  color: #666; }
+  color: #666666; }
 
 a,
 button,
