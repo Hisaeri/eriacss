@@ -1,6 +1,17 @@
 /*Custom sizes*/
 $margin-small:          5px;
-$margin-medium:         10px;
-$margin-large:          20px;
+$margin-medium:         $margin-small * 2;
+$margin-large:          $margin-medium * 2;
+
+$padding-small:         $margin-small;
+$padding-medium:        $margin-medium;
+$padding-large:         $margin-large;
 
 $shadow-size:           2px;
+
+/*
+ * Nb of columns - 100 will be divided by that nb
+ * to make proper column names. (example for 10: col_10, col_20, ...)
+ * Watch out !
+*/
+$columns-nb:             10;
