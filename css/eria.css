@@ -4,6 +4,8 @@
 /*Red*/
 /*Button colors*/
 /*Custom sizes*/
+/*Header*/
+/*Footer*/
 /*
  * Nb of columns - 100 will be divided by that nb
  * to make proper column names. (example for 10: col_10, col_20, ...)
@@ -12,25 +14,6 @@
 /*Fonts*/
 @import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700");
 /*Block imports*/
-/*Utilities SCSS*/
-.hoverable {
-  transition: all 0.2s; }
-  .hoverable:hover {
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s; }
-
-.container {
-  margin: 10px; }
-
-.text_center {
-  text-align: center; }
-
-.text_right {
-  text-align: right; }
-
-.text_left {
-  text-align: left; }
-
 /*Grid system for eriacss*/
 .row {
   display: -webkit-box;
@@ -330,13 +313,56 @@
   .col_xs-offset-66 {
     margin-left: 66.6666%; } }
 
+/*Header block*/
+.header {
+  box-shadow: 0px 2px 6px #cccccc;
+  padding: 20px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.95);
+  flex: 1 100%; }
+
+.header-fixed {
+  box-shadow: 0px 2px 6px #cccccc;
+  padding: 20px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.95);
+  position: fixed;
+  width: 100%; }
+
+/*Footer style*/
+.footer {
+  padding: 20px;
+  background-color: #666666;
+  height: 50px;
+  color: white;
+  flex: 1 100%; }
+
+/*Utilities SCSS*/
+.hoverable {
+  transition: all 0.2s; }
+  .hoverable:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s; }
+
+.container {
+  margin: 10px; }
+
+.text_center {
+  text-align: center; }
+
+.text_right {
+  text-align: right; }
+
+.text_left {
+  text-align: left; }
+
 /*Buttons SCSS*/
 .btn {
   padding: 10px;
   margin: 5px;
   font-size: 1em;
   border: 0;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #9E9E9E;
   color: white;
   cursor: pointer; }
@@ -433,6 +459,8 @@
 
 /*Main SCSS*/
 body {
+  display: flex;
+  flex-flow: row wrap;
   margin: 0px;
   font-family: "Roboto";
   color: #212121; }

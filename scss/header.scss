@@ -1,0 +1,16 @@
+/*Header block*/
+.header {
+  box-shadow: 0px $shadow-size $shadow-size * 3 $grey-light;
+  padding: $padding-large;
+  height: $header-size;
+  background: rgba(255, 255, 255, $header-opacity);
+  flex: 1 100%;
+}
+.header-fixed {
+  box-shadow: 0px $shadow-size $shadow-size * 3 $grey-light;
+  padding: $padding-large;
+  height: $header-size;
+  background: rgba(255, 255, 255, $header-opacity);
+  position: fixed;
+  width: 100%;
+}
