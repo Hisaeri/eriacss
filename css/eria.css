@@ -374,6 +374,10 @@
 .section {
   margin: 40px; }
 
+@media only screen and (max-width: 768px) {
+  .section {
+    margin: 20px; } }
+
 /*Buttons SCSS*/
 .btn {
   padding: 10px;
