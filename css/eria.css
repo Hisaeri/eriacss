@@ -6,6 +6,7 @@
 /*Custom sizes*/
 /*Header*/
 /*Footer*/
+/*Section*/
 /*
  * Nb of columns - 100 will be divided by that nb
  * to make proper column names. (example for 10: col_10, col_20, ...)
@@ -368,6 +369,10 @@
 
 .text_left {
   text-align: left; }
+
+/*Section*/
+.section {
+  margin: 40px; }
 
 /*Buttons SCSS*/
 .btn {

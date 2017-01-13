@@ -21,6 +21,9 @@ $header-opacity:        0.95;
 /*Footer*/
 $footer-size:           50px;
 
+/*Section*/
+$section-margin:        $margin-large *2;
+
 /*
  * Nb of columns - 100 will be divided by that nb
  * to make proper column names. (example for 10: col_10, col_20, ...)
