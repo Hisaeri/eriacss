@@ -14,3 +14,17 @@
   position: fixed;
   width: 100%;
 }
+.header-fixed__content {
+  width: 100%;
+  margin-top: $header-size + $padding-large * 2;
+}
+.header-fixed__container {
+  width: 100%;
+  margin: 10px;
+  margin-top: $header-size + $padding-large * 2;
+}
+@media only screen and (max-width: 768px) {
+  .header, .header-fixed {
+    height: $header-size / 2;
+  }
+}

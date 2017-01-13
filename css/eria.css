@@ -329,6 +329,19 @@
   position: fixed;
   width: 100%; }
 
+.header-fixed__content {
+  width: 100%;
+  margin-top: 90px; }
+
+.header-fixed__container {
+  width: 100%;
+  margin: 10px;
+  margin-top: 90px; }
+
+@media only screen and (max-width: 768px) {
+  .header, .header-fixed {
+    height: 25px; } }
+
 /*Footer style*/
 .footer {
   padding: 20px;
@@ -409,14 +422,14 @@
 .btn_outlined {
   background: transparent;
   color: #666666;
-  border: 1px solid #cccccc; }
+  border: 2px solid #cccccc; }
   .btn_outlined:hover {
     background-color: transparent; }
   .btn_outlined:active {
     background-color: transparent; }
 
 .btn_outlined_action {
-  border: 1px solid #00BCD4;
+  border: 2px solid #00BCD4;
   color: #00BCD4;
   transition: all 0.3s; }
   .btn_outlined_action:hover {
@@ -425,7 +438,7 @@
     color: white; }
 
 .btn_outlined_valid {
-  border: 1px solid #4caf50;
+  border: 2px solid #4caf50;
   color: #4caf50;
   transition: all 0.3s; }
   .btn_outlined_valid:hover {
@@ -434,7 +447,7 @@
     color: white; }
 
 .btn_outlined_invalid {
-  border: 1px solid #F44336;
+  border: 2px solid #F44336;
   color: #F44336;
   transition: all 0.3s; }
   .btn_outlined_invalid:hover {
@@ -456,6 +469,10 @@
 
 .card__content {
   padding: 10px 10px; }
+
+/*Text*/
+.link {
+  text-decoration: none; }
 
 /*Main SCSS*/
 body {
