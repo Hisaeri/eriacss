@@ -1,11 +1,11 @@
 /*Section*/
 .section {
-  margin: $section-margin 0;
-  padding: 0 $section-padding;
+  margin: 0 $section-margin;
+  padding: $section-padding 0;
 }
 @media only screen and (max-width: 768px) {
   .section {
-    margin: $section-margin /2 0;
-    padding: 0 $section-padding /2;
+    margin: 0 $section-margin /2;
+    padding: $section-padding /2 0;
   }
 }
